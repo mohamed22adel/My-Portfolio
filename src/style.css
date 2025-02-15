@@ -297,7 +297,7 @@ border: 1px #0ef563d5 solid;
     }
 }
 
-@media (min-width:321px) and  (max-width:375px) {
+@media (min-width:375px) {
     body{
         width: 375px;
     }
@@ -392,7 +392,7 @@ border: 1px #0ef563d5 solid;
     }
 }
 
-@media (min-width:376px) and (max-width:425px){
+@media (min-width:425px){
     body{
         width: 425px;
     }
@@ -487,7 +487,7 @@ border: 1px #0ef563d5 solid;
     }
 }
 
-@media (min-width:426px) and (max-width:768px){
+@media (min-width:768px){
     body{
         width: 768px;
     }
@@ -582,7 +582,7 @@ border: 1px #0ef563d5 solid;
     }
 }
 
-@media (min-width:769px) and (max-width:991px){
+@media (min-width:991px){
     body{
         width: 991px;
     }
@@ -703,7 +703,7 @@ border: 1px #0ef563d5 solid;
     }
 }
 
-@media (min-width:992px) and (max-width:1024px){
+@media (min-width:1024px){
     body{
         width: 1024px;
     }
@@ -846,7 +846,7 @@ border: 1px #0ef563d5 solid;
     }
 }
 
-@media (min-width:1025px) and (max-width:1200px){
+@media (min-width:1200px){
     body{
         width: 1200px;
     }
@@ -1591,7 +1591,7 @@ margin-top: 0;
     }
 }
 
-@media (min-width:321px) and (max-width:375px){
+@media (min-width:375px){
     .hi{
         font-size: 20px;
     }
@@ -1763,7 +1763,7 @@ margin-top: 0;
     }
 }
 
-@media (min-width:376) and (max-width:425px){
+@media (min-width:425px){
     .hi{
         font-size: 35px;
     }
@@ -1935,7 +1935,7 @@ margin-top: 0;
     }
 }
 
-@media (min-width:426px) and (max-width:768px){
+@media (min-width:768px){
     .hi{
         font-size: 50px;
     }
@@ -2119,7 +2119,7 @@ margin-top: 0;
     }
 }
 
-@media (min-width:769px) and (max-width:991px){
+@media (min-width:991px){
     .hi{
         font-size: 50px;
     }
@@ -2264,7 +2264,7 @@ margin-top: 0;
     }
 }
 
-@media (min-width:992px) and (max-width:1024px){
+@media (min-width:1024px){
     .hi{
         font-size: 50px;
     }
@@ -2409,7 +2409,7 @@ margin-top: 0;
     }
 }
 
-@media (min-width:1025px) and (max-width:1200px){
+@media (min-width:1200px){
     .hi{
         font-size: 50px;
     }
