@@ -4,7 +4,13 @@ import { motion } from "framer-motion";
 export default function Home(){
 
 
-
+    const handleDownload = () => {
+        const link = document.createElement('a');
+        link.href = '../Mohammed_Adel_CV.pdf'; 
+        link.download = "../Mohammed_Adel_CV.pdf";
+        link.click();
+        };
+    
 
 
     const { ref: ref1, inView: inView1 } = useInView({
@@ -62,7 +68,7 @@ return(
         animate={inView1 ? 'visible' : 'hidden'}
         variants={variant1}
         transition={{ duration: 0.6 }}>
-        <img src={require("../images/profile_photo.jpg")} alt="i"/>
+        <img src={require("../images/my_photo2.jpg")} alt="i"/>
         <div className="my_container_jop">
             <h2>HY! I'M <span>MOHAMMAD ADEL</span></h2>
             <p>Front-End Developer</p>
@@ -84,7 +90,7 @@ return(
             Hire Me!
         </button></Link>
 
-        <button className="my_container_btn2">
+        <button onClick={handleDownload} className="my_container_btn2">
         Download CV
         </button>
         </motion.div>

@@ -588,7 +588,7 @@ border: 1px #0ef563d5 solid;
     }
     .nav_container{
         height: 100px;
-        width: 991px;
+        width: 100%;
     }
     
     .bars_container{
@@ -709,7 +709,7 @@ border: 1px #0ef563d5 solid;
     }
     .nav_container{
         height: 100px;
-        width: 1024px;
+        width: 100%;
     }
     
     .bars_container{
@@ -852,7 +852,7 @@ border: 1px #0ef563d5 solid;
     }
     .nav_container{
         height: 100px;
-        width: 1200px;
+        width: 100%;
     }
     .change_colors_div{
         display: flex;
@@ -985,7 +985,7 @@ border: 1px #0ef563d5 solid;
     }
     .nav_container{
         height: 100px;
-        width: 1440px;
+        width: 100%;
     }
     .change_colors_div{
         display: flex;
@@ -1239,8 +1239,8 @@ border: 1px #0ef563d5 solid;
     height: 550px;
 }
 .my_container img{
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 150px;
     margin-top: 20px;
     border-radius: 50%;
 }
@@ -2128,7 +2128,7 @@ margin-top: 0;
             width: 0;
         }
         to{
-            width: 415px;
+            width: 420px;
         }
     }
     @keyframes blink {
@@ -2141,8 +2141,6 @@ margin-top: 0;
     }
     .my_jop{
         font-size: 50px;
-        margin-left: 20px;
-        margin:0 20px ;
         border-right: 1px white solid;
         overflow: hidden;
         white-space: nowrap;
@@ -2153,7 +2151,7 @@ margin-top: 0;
         width: 0;
         }
         to {
-        width: 240px;
+        width: 260px;
         }
     }
     @keyframes blink2 {
@@ -2168,20 +2166,23 @@ margin-top: 0;
         color: #0ef563d5;
     }
     .paragraph, .paragraph2, .paragraph3{
-        margin:0 20px ;
-        font-size: 20px;
+        margin:10px 20px;
+        font-size: 30px;
+        min-width: 300px;
     }
     .paragraph{
         margin-top: 30px;
     }
     .home_paragraph_container{
-        margin-left: 30px;
+        width: 540px;
+        margin: 20px auto;
     }
+
+    
     .my_container{
-        margin-left: 100px;
-        margin-top: 100px;
-        width: 350px;
-        height: 650px;
+        width: 600px;
+        height: 570px;
+        margin: auto;
     }
     .my_container img{
         width: 200px;
@@ -2224,43 +2225,81 @@ margin-top: 0;
         color:#0ef563d5 ;
     }
     .my_container_btn{
-        padding: 12px 70px;
+        margin-bottom: 7.5px;
+        margin-top: 10px;
+        padding: 12px 180px;
+        background-color: #0ef563d5;
+        border:1px solid #0ef563d5;
+        border-radius: 20px;
+        cursor: pointer;
     }
-
+    .my_container_btn:hover{
+        background-color: transparent;
+        color: #0ef563d5;
+    }
     .my_container_btn2{
-        padding: 12px 55px;
+        margin-bottom: 20px;
+        margin-top: 7.5px;
+        padding: 12px 165px;
+        background-color: #3a3a38b1;
+        color: white;
+        border:1px solid #3a3a38b1;
+        border-radius: 20px;
+        cursor: pointer;
     }
     .my_container_btn2:hover{
         background-color: transparent;
     
     }
-    .about_me_card{
-        width: 186px;
-        height: 150px;
-        margin-top: -35px;
-        margin-bottom: 20px;
-    }
-    .about_me_card h1{
-        font-size: 25px;
-    }
-    .amount_project_and_experience_card{
-        width: 186px;
-    }
-    .project_card{
-        width: 230px;
-        margin-bottom: 20px;
-    }
-    .project_card_images img{
-        width: 100px;
-        height: 100px;
-    }
-    .contact_card{
-        width: 230px;
+    .home_container{
+        display: block;
+        align-items: center;
+        margin-top: 150px ;
     }
 
     .home_cards_div{
-        margin-left: 375px;
-        margin-top: -170px;
+        display: block;
+        margin: auto;
+        width: 650px;
+        margin-top: 120px;
+    }
+    .home_cards_div1{
+    width: 650px;
+    margin: auto;
+    }
+    .about_me_card{
+        width: 580px;
+        margin-bottom: 20px;
+    }
+    .about_me_card h1{
+        font-size: 40px;
+    }
+    .about_me_card p{
+        font-size: 20px;
+    }
+    .about_me_card h4{
+        font-size: 30px;
+    }
+    .amount_project_and_experience_card{
+        width: 580px;
+        margin-bottom: 20px;
+    }
+    .amount_project_and_experience_card div{
+        margin: auto 50px;
+    }
+    .home_cards_div2{
+        margin-top: 100px;
+    }
+    .project_card{
+        width: 600px;
+        margin-bottom: 20px;
+    }
+    .project_card_images img{
+        width: 250px;
+        height: 250px;
+    }
+    .contact_card{
+        width: 600px;
     }
 }
 
@@ -2319,14 +2358,20 @@ margin-top: 0;
     .paragraph{
         margin-top: 30px;
     }
+    .home_container{
+        display: flex;
+        align-items: center;
+        margin-top: 100px;
+    }
     .home_paragraph_container{
         margin-left: 30px;
+        margin-top: -50px;
     }
     .my_container{
-        margin-left: 100px;
+        margin-left: 30px;
         margin-top: 100px;
         width: 350px;
-        height: 650px;
+        height: 600px;
     }
     .my_container img{
         width: 200px;
@@ -2379,28 +2424,39 @@ margin-top: 0;
         background-color: transparent;
     
     }
+
     .about_me_card{
-        width: 186px;
+        width: 540px;
         height: 150px;
-        margin-top: -35px;
+        margin-top: 20px;
         margin-bottom: 20px;
+        margin-left: 40px;
+        
     }
     .about_me_card h1{
         font-size: 25px;
+        margin-top: -1px;
+        margin-top: 10px;
     }
     .amount_project_and_experience_card{
-        width: 186px;
+        width: 540px;
+        height: 150px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 40px;
     }
     .project_card{
-        width: 230px;
+        width: 557px;
         margin-bottom: 20px;
+        margin-left: 40px;
     }
     .project_card_images img{
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: 200px;
     }
     .contact_card{
-        width: 230px;
+        width: 557px;
+        margin-left: 40px;
     }
 
     .home_cards_div{
@@ -2464,15 +2520,20 @@ margin-top: 0;
     .paragraph{
         margin-top: 30px;
     }
+    .home_container{
+        display: flex;
+        align-items: center;
+        margin-top: 100px;
+    }
     .home_paragraph_container{
         margin-left: 30px;
-        margin-top: -24px;
+        margin-top: -50px;
     }
     .my_container{
-        margin-left: 100px;
+        margin-left: 30px;
         margin-top: 100px;
-        width: 500px;
-        height: 550px;
+        width: 350px;
+        height: 600px;
     }
     .my_container img{
         width: 200px;
@@ -2515,43 +2576,54 @@ margin-top: 0;
         color:#0ef563d5 ;
     }
     .my_container_btn{
-        padding: 12px 90px;
+        padding: 12px 70px;
     }
 
     .my_container_btn2{
-        padding: 12px 75px;
+        padding: 12px 55px;
     }
     .my_container_btn2:hover{
         background-color: transparent;
     
     }
+
     .about_me_card{
-        width: 220px;
+        width: 540px;
         height: 150px;
-        margin-top: -55px;
+        margin-top: 20px;
         margin-bottom: 20px;
+        margin-left: 40px;
+        
     }
     .about_me_card h1{
         font-size: 25px;
+        margin-top: -1px;
+        margin-top: 10px;
     }
     .amount_project_and_experience_card{
-        width: 220px;
+        width: 540px;
+        height: 150px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 40px;
     }
     .project_card{
-        width: 270px;
+        width: 557px;
         margin-bottom: 20px;
+        margin-left: 40px;
     }
     .project_card_images img{
-        width: 120px;
-        height: 120px;
+        width: 200px;
+        height: 200px;
     }
     .contact_card{
-        width: 270px;
+        width: 557px;
+        margin-left: 40px;
     }
 
     .home_cards_div{
-        margin-left: 485px;
-        margin-top: -100px;
+        margin-left: 375px;
+        margin-top: -170px;
     }
 }
 
@@ -4096,7 +4168,7 @@ margin-left: 20px;
 }
 .about_container_div1 img{
     width: 300px;
-    height: 300px;
+    height: 230px;
     border-radius: 50%;
     margin-right: 20px;
 }

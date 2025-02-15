@@ -1,12 +1,21 @@
 import { Link } from "react-router-dom";
 export default function About(){
+
+    const handleDownload = () => {
+        const link = document.createElement('a');
+        link.href = '../Mohammed_Adel_CV.pdf'; 
+        link.download = "../Mohammed_Adel_CV.pdf";
+        link.click();
+        };
+    
+
     return(
         <div className="container">
         
         <div className="about_container">
 
 <div className="my_container">
-        <img src={require("../images/profile_photo.jpg")} alt="i"/>
+        <img src={require("../images/my_photo2.jpg")} alt="i"/>
         <div className="my_container_jop">
             <h2>HY! I'M <span>MOHAMMAD ADEL</span></h2>
             <p>Front-End Developer</p>
@@ -28,7 +37,7 @@ export default function About(){
             Hire Me!
         </button></Link>
 
-        <button className="my_container_btn2">
+        <button onClick={handleDownload} className="my_container_btn2">
         Download CV
         </button>
     </div>
@@ -37,7 +46,7 @@ export default function About(){
     
     <div className="about_container_div1">
         
-            <img src={require("../images/profile_photo.jpg")} alt="i"/>
+            <img src={require("../images/my_photo2.jpg")} alt="i"/>
             <div>
                 <h1>
                     ABOUT ME<span>!</span>
